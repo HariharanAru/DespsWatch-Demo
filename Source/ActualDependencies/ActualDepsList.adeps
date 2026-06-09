@@ -1,25 +1,25 @@
-[StringUtilities]
+[ABComm]
 
-[FileUtilities]
+[ACComm]
+
+[AppLauncher]
 
 [ArrayUtilities]
 
-[ModuleC]
-ACComm = ""
-ArrayUtilities = ""
-
-[ModuleB]
-ABComm = ""
-FileUtilities = ""
-StringUtilities = ""
+[FileUtilities]
 
 [ModuleA]
 ABComm = ""
 ACComm = ""
 FileUtilities = ""
 
-[ACComm]
+[ModuleB]
+ABComm = ""
+FileUtilities = ""
+StringUtilities = ""
 
-[ABComm]
+[ModuleC]
+ACComm = ""
+ArrayUtilities = ""
 
-[AppLauncher]
+[StringUtilities]
