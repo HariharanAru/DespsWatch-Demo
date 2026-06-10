@@ -1,0 +1,25 @@
+[StringUtilities]
+
+[FileUtilities]
+
+[ArrayUtilities]
+
+[ModuleC]
+ACComm = ""
+ArrayUtilities = ""
+
+[ModuleB]
+ABComm = ""
+FileUtilities = ""
+StringUtilities = ""
+
+[ModuleA]
+ABComm = ""
+ACComm = ""
+FileUtilities = ""
+
+[ACComm]
+
+[ABComm]
+
+[AppLauncher]
