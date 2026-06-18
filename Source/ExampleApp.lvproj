@@ -29,7 +29,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="SLL Application.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLL Toolkit/SLL Application/SLL Application.lvlib"/>
 			</Item>
-			<Item Name="SubPAnel.vi" Type="VI" URL="../Modules/ModuleA/SubPAnel.vi"/>
+			<Item Name="Class 9.lvclass" Type="LVClass" URL="../Modules/Class 9.lvclass"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
