@@ -11,11 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="FileUtilities.lvlib" Type="Library" URL="../FileUtilities.lvlib"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="ABComm.lvlib" Type="Library" URL="../../../Communication/ABComm/ABComm.lvlib"/>
-			<Item Name="ModuleB.lvlib" Type="Library" URL="../../../Modules/ModuleB/ModuleB.lvlib"/>
-			<Item Name="StringUtilities.lvlib" Type="Library" URL="../../StringUtilities/StringUtilities.lvlib"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

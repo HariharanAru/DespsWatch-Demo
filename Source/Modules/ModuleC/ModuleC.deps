@@ -1,5 +1,0 @@
-[ModuleC.lvlib:Direct]
-ACComm.lvlib = ""
-ArrayUtilities.lvlib = ""
-
-[ModuleC.lvlib:Indirect]

@@ -19,8 +19,6 @@
 			<Item Name="ACComm.lvlib" Type="Library" URL="../../../Communication/ACComm/ACComm.lvlib"/>
 			<Item Name="Class 9.lvclass" Type="LVClass" URL="../../Class 9.lvclass"/>
 			<Item Name="FileUtilities.lvlib" Type="Library" URL="../../../Utilities/FileUtilities/FileUtilities.lvlib"/>
-			<Item Name="ModuleB.lvlib" Type="Library" URL="../../ModuleB/ModuleB.lvlib"/>
-			<Item Name="StringUtilities.lvlib" Type="Library" URL="../../../Utilities/StringUtilities/StringUtilities.lvlib"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
