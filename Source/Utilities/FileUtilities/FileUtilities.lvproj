@@ -1,6 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="23008000">
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -12,7 +11,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="FileUtilities.lvlib" Type="Library" URL="../FileUtilities.lvlib"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="ABComm.lvlib" Type="Library" URL="../../../Communication/ABComm/ABComm.lvlib"/>
+			<Item Name="ModuleB.lvlib" Type="Library" URL="../../../Modules/ModuleB/ModuleB.lvlib"/>
+			<Item Name="StringUtilities.lvlib" Type="Library" URL="../../StringUtilities/StringUtilities.lvlib"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
