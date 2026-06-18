@@ -1,6 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="23008000">
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -13,9 +12,19 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ModuleA.lvlib" Type="Library" URL="../ModuleA.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="SLL Application.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLL Toolkit/SLL Application/SLL Application.lvlib"/>
+			</Item>
 			<Item Name="ABComm.lvlib" Type="Library" URL="../../../Communication/ABComm/ABComm.lvlib"/>
 			<Item Name="ACComm.lvlib" Type="Library" URL="../../../Communication/ACComm/ACComm.lvlib"/>
+			<Item Name="Class 9.lvclass" Type="LVClass" URL="../../Class 9.lvclass"/>
 			<Item Name="FileUtilities.lvlib" Type="Library" URL="../../../Utilities/FileUtilities/FileUtilities.lvlib"/>
+			<Item Name="ModuleB.lvlib" Type="Library" URL="../../ModuleB/ModuleB.lvlib"/>
+			<Item Name="StringUtilities.lvlib" Type="Library" URL="../../../Utilities/StringUtilities/StringUtilities.lvlib"/>
+			<Item Name="SubPAnel.vi" Type="VI" URL="../SubPAnel.vi"/>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
