@@ -1,6 +1,0 @@
-[FileUtilities.lvlib:Direct]
-ModuleB.lvlib = ""
-
-[FileUtilities.lvlib:Indirect]
-ABComm.lvlib = ""
-StringUtilities.lvlib = ""

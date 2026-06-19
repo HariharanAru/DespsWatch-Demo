@@ -6,32 +6,29 @@
 
 [ACComm.lvlib:Indirect]
 
+[AppLauncher.lvlib:Direct]
+
+[AppLauncher.lvlib:Indirect]
+
 [ArrayUtilities.lvlib:Direct]
 
 [ArrayUtilities.lvlib:Indirect]
 
-[Class 9.lvclass:Direct]
-
-[Class 9.lvclass:Indirect]
-
 [FileUtilities.lvlib:Direct]
-ModuleB.lvlib = ""
 
 [FileUtilities.lvlib:Indirect]
-ABComm.lvlib = ""
-StringUtilities.lvlib = ""
+
+[GraphUtilities.lvclass:Direct]
+
+[GraphUtilities.lvclass:Indirect]
 
 [ModuleA.lvlib:Direct]
 ABComm.lvlib = ""
 ACComm.lvlib = ""
-Class 9.lvclass = ""
 FileUtilities.lvlib = ""
-SubPAnel.vi = ""
+GraphUtilities.lvclass = ""
 
 [ModuleA.lvlib:Indirect]
-ModuleB.lvlib = ""
-StringUtilities.lvlib = ""
-System = ""
 
 [ModuleB.lvlib:Direct]
 ABComm.lvlib = ""
@@ -45,6 +42,14 @@ ACComm.lvlib = ""
 ArrayUtilities.lvlib = ""
 
 [ModuleC.lvlib:Indirect]
+
+[ModuleD.lvclass:Direct]
+ModuleB.lvlib = ""
+StringUtilities.lvlib = ""
+
+[ModuleD.lvclass:Indirect]
+ABComm.lvlib = ""
+FileUtilities.lvlib = ""
 
 [StringUtilities.lvlib:Direct]
 

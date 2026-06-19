@@ -1,10 +1,6 @@
 [ModuleA.lvlib:Direct]
 ABComm.lvlib = ""
 ACComm.lvlib = ""
-Class 9.lvclass = ""
-SubPAnel.vi = ""
-StringUtilities.lvlib = ""
+FileUtilities.lvlib = ""
 
 [ModuleA.lvlib:Indirect]
-ModuleB.lvlib = ""
-System = ""

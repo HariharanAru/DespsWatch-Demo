@@ -19,21 +19,15 @@
 			<Item Name="ModuleA.lvlib" Type="Library" URL="../Modules/ModuleA/ModuleA.lvlib"/>
 			<Item Name="ModuleB.lvlib" Type="Library" URL="../Modules/ModuleB/ModuleB.lvlib"/>
 			<Item Name="ModuleC.lvlib" Type="Library" URL="../Modules/ModuleC/ModuleC.lvlib"/>
+			<Item Name="ModuleD.lvclass" Type="LVClass" URL="../Modules/ModuleD/ModuleD.lvclass"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="ArrayUtilities.lvlib" Type="Library" URL="../Utilities/ArrayUtilities/ArrayUtilities.lvlib"/>
 			<Item Name="FileUtilities.lvlib" Type="Library" URL="../Utilities/FileUtilities/FileUtilities.lvlib"/>
+			<Item Name="GraphUtilities.lvclass" Type="LVClass" URL="../Utilities/GraphUtilities/GraphUtilities.lvclass"/>
 			<Item Name="StringUtilities.lvlib" Type="Library" URL="../Utilities/StringUtilities/StringUtilities.lvlib"/>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="SLL Application.lvlib" Type="Library" URL="/&lt;vilib&gt;/SLL Toolkit/SLL Application/SLL Application.lvlib"/>
-			</Item>
-			<Item Name="SubPAnel.vi" Type="VI" URL="../Modules/ModuleA/SubPAnel.vi"/>
-			<Item Name="System" Type="VI" URL="System">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

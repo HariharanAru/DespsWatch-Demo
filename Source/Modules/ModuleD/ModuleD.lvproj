@@ -10,8 +10,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="FileUtilities.lvlib" Type="Library" URL="../FileUtilities.lvlib"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="ModuleD.lvclass" Type="LVClass" URL="../ModuleD.lvclass"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="ABComm.lvlib" Type="Library" URL="../../../Communication/ABComm/ABComm.lvlib"/>
+			<Item Name="FileUtilities.lvlib" Type="Library" URL="../../../Utilities/FileUtilities/FileUtilities.lvlib"/>
+			<Item Name="ModuleB.lvlib" Type="Library" URL="../../ModuleB/ModuleB.lvlib"/>
+			<Item Name="StringUtilities.lvlib" Type="Library" URL="../../../Utilities/StringUtilities/StringUtilities.lvlib"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
