@@ -1,0 +1,56 @@
+[ABComm.lvlib:Direct]
+
+[ABComm.lvlib:Indirect]
+
+[ACComm.lvlib:Direct]
+
+[ACComm.lvlib:Indirect]
+
+[AppLauncher.lvlib:Direct]
+
+[AppLauncher.lvlib:Indirect]
+
+[ArrayUtilities.lvlib:Direct]
+
+[ArrayUtilities.lvlib:Indirect]
+
+[FileUtilities.lvlib:Direct]
+
+[FileUtilities.lvlib:Indirect]
+
+[GraphUtilities.lvclass:Direct]
+
+[GraphUtilities.lvclass:Indirect]
+
+[ModuleA.lvlib:Direct]
+ABComm.lvlib = ""
+ACComm.lvlib = ""
+FileUtilities.lvlib = ""
+GraphUtilities.lvclass = ""
+
+[ModuleA.lvlib:Indirect]
+
+[ModuleB.lvlib:Direct]
+ABComm.lvlib = ""
+FileUtilities.lvlib = ""
+StringUtilities.lvlib = ""
+
+[ModuleB.lvlib:Indirect]
+
+[ModuleC.lvlib:Direct]
+ACComm.lvlib = ""
+ArrayUtilities.lvlib = ""
+
+[ModuleC.lvlib:Indirect]
+
+[ModuleD.lvclass:Direct]
+ModuleB.lvlib = ""
+StringUtilities.lvlib = ""
+
+[ModuleD.lvclass:Indirect]
+ABComm.lvlib = ""
+FileUtilities.lvlib = ""
+
+[StringUtilities.lvlib:Direct]
+
+[StringUtilities.lvlib:Indirect]

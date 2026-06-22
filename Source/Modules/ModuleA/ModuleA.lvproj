@@ -1,6 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="23008000">
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -16,6 +15,7 @@
 			<Item Name="ABComm.lvlib" Type="Library" URL="../../../Communication/ABComm/ABComm.lvlib"/>
 			<Item Name="ACComm.lvlib" Type="Library" URL="../../../Communication/ACComm/ACComm.lvlib"/>
 			<Item Name="FileUtilities.lvlib" Type="Library" URL="../../../Utilities/FileUtilities/FileUtilities.lvlib"/>
+			<Item Name="GraphUtilities.lvclass" Type="LVClass" URL="../../../Utilities/GraphUtilities/GraphUtilities.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

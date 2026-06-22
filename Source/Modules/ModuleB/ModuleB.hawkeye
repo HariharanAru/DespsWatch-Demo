@@ -1,0 +1,6 @@
+[ModuleB.lvlib:Direct]
+ABComm.lvlib = ""
+FileUtilities.lvlib = ""
+StringUtilities.lvlib = ""
+
+[ModuleB.lvlib:Indirect]
