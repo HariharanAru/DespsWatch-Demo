@@ -1,6 +1,10 @@
 [ModuleB.lvlib:Direct]
 ABComm.lvlib = ""
-FileUtilities.lvlib = ""
+ModuleA.lvlib = ""
 StringUtilities.lvlib = ""
 
 [ModuleB.lvlib:Indirect]
+ACComm.lvlib = ""
+FileUtilities.lvlib = ""
+GraphUtilities.lvclass = ""
+Untitled 1.vi = ""
