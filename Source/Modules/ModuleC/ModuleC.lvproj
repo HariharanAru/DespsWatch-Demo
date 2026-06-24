@@ -13,7 +13,6 @@
 		<Item Name="ModuleC.lvlib" Type="Library" URL="../ModuleC.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="ACComm.lvlib" Type="Library" URL="../../../Communication/ACComm/ACComm.lvlib"/>
-			<Item Name="ArrayUtilities.lvlib" Type="Library" URL="../../../Utilities/ArrayUtilities/ArrayUtilities.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

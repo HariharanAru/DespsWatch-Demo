@@ -13,9 +13,14 @@
 		<Item Name="ModuleD.lvclass" Type="LVClass" URL="../ModuleD.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="ABComm.lvlib" Type="Library" URL="../../../Communication/ABComm/ABComm.lvlib"/>
+			<Item Name="ACComm.lvlib" Type="Library" URL="../../../Communication/ACComm/ACComm.lvlib"/>
 			<Item Name="FileUtilities.lvlib" Type="Library" URL="../../../Utilities/FileUtilities/FileUtilities.lvlib"/>
+			<Item Name="GraphUtilities.lvclass" Type="LVClass" URL="../../../Utilities/GraphUtilities/GraphUtilities.lvclass"/>
+			<Item Name="ModuleA.lvlib" Type="Library" URL="../../ModuleA/ModuleA.lvlib"/>
 			<Item Name="ModuleB.lvlib" Type="Library" URL="../../ModuleB/ModuleB.lvlib"/>
+			<Item Name="ModuleC.lvlib" Type="Library" URL="../../ModuleC/ModuleC.lvlib"/>
 			<Item Name="StringUtilities.lvlib" Type="Library" URL="../../../Utilities/StringUtilities/StringUtilities.lvlib"/>
+			<Item Name="Untitled 1.vi" Type="VI" URL="../../ModuleA/Untitled 1.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
