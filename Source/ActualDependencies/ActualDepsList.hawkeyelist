@@ -7,6 +7,7 @@
 [ACComm.lvlib:Indirect]
 
 [AppLauncher.lvlib:Direct]
+Simple Error Handler.vi = ""
 
 [AppLauncher.lvlib:Indirect]
 
@@ -15,6 +16,7 @@
 [ArrayUtilities.lvlib:Indirect]
 
 [FileUtilities.lvlib:Direct]
+GraphUtilities.lvclass = ""
 
 [FileUtilities.lvlib:Indirect]
 
@@ -26,31 +28,38 @@
 ABComm.lvlib = ""
 ACComm.lvlib = ""
 FileUtilities.lvlib = ""
-GraphUtilities.lvclass = ""
 
 [ModuleA.lvlib:Indirect]
+GraphUtilities.lvclass = ""
 
 [ModuleB.lvlib:Direct]
-ABComm.lvlib = ""
-FileUtilities.lvlib = ""
+ModuleA.lvlib = ""
 StringUtilities.lvlib = ""
 
 [ModuleB.lvlib:Indirect]
+ABComm.lvlib = ""
+ACComm.lvlib = ""
+FileUtilities.lvlib = ""
+GraphUtilities.lvclass = ""
 
 [ModuleC.lvlib:Direct]
 ACComm.lvlib = ""
-ArrayUtilities.lvlib = ""
 
 [ModuleC.lvlib:Indirect]
 
 [ModuleD.lvclass:Direct]
+ABComm.lvlib = ""
 ModuleB.lvlib = ""
-StringUtilities.lvlib = ""
+ModuleC.lvlib = ""
 
 [ModuleD.lvclass:Indirect]
-ABComm.lvlib = ""
+ACComm.lvlib = ""
 FileUtilities.lvlib = ""
+GraphUtilities.lvclass = ""
+ModuleA.lvlib = ""
+StringUtilities.lvlib = ""
 
 [StringUtilities.lvlib:Direct]
+GraphUtilities.lvclass = ""
 
 [StringUtilities.lvlib:Indirect]
