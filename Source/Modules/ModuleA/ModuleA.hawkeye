@@ -1,7 +1,0 @@
-[ModuleA.lvlib:Direct]
-ABComm.lvlib = ""
-ACComm.lvlib = ""
-FileUtilities.lvlib = ""
-
-[ModuleA.lvlib:Indirect]
-GraphUtilities.lvclass = ""
