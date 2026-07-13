@@ -26,10 +26,9 @@
 			<Item Name="FileUtilities.lvlib" Type="Library" URL="../Utilities/FileUtilities/FileUtilities.lvlib"/>
 			<Item Name="GraphUtilities.lvclass" Type="LVClass" URL="../Utilities/GraphUtilities/GraphUtilities.lvclass"/>
 			<Item Name="StringUtilities.lvlib" Type="Library" URL="../Utilities/StringUtilities/StringUtilities.lvlib"/>
+			<Item Name="UpdateStatus.lvlib" Type="Library" URL="../Utilities/UpdateStatus/UpdateStatus.lvlib"/>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="Untitled 1.vi" Type="VI" URL="../Modules/ModuleA/Untitled 1.vi"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
